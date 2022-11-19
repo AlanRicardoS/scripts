@@ -15,8 +15,8 @@ Cyan='\033[0;36m'         # Cyan
 echo -e "$Cyan \n Updating System.. $Color_Off"
 sudo apt-get update -y && sudo apt-get upgrade -y
 
-sudo apt-get install php5-fpm
-sudo apt-get install phpmyadmin
+sudo apt-get install php5-fpm -y
+sudo apt-get install phpmyadmin -y
 
 ## Install AMP
 #echo -e "$Cyan \n Installing Apache2 $Color_Off"
