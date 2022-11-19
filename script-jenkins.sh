@@ -10,10 +10,10 @@ sudo apt update
 sudo apt install jenkins -y
 sudo systemctl start jenkins
 sudo systemctl enable jenkins
-sudo ufw allow 8080
-sudo ufw allow 50000
-sudo ufw allow 22
-sudo ufw enable
-sudo ufw status
-sudo systemctl status jenkins
+#sudo ufw allow 8080
+#sudo ufw allow 50000
+#sudo ufw allow 22
+#sudo ufw enable
+#sudo ufw status
+#sudo systemctl status jenkins
 sudo cat /var/lib/jenkins/secrets/initialAdminPassword
