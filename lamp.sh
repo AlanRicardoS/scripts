@@ -4,7 +4,7 @@ sudo apt install apache2 -yq
 sudo ufw app list 
 sudo ufw allow in "Apache" 
 sudo ufw status
-ip addr show ens3 | grep inet | awk '{ print $2; }' | sed 's/\/.*$//'
+#ip addr show ens3 | grep inet | awk '{ print $2; }' | sed 's/\/.*$//'
 sudo apt install mysql-server -yq
 sudo apt install php libapache2-mod-php php-mysql -yq
 sudo mkdir /var/www/iac
